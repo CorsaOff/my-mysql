@@ -351,6 +351,9 @@ docker logs my-mysql
 ```shell
 docker logs my-mysql > log.txt
 ```
+
+![alt text](image-3.png)
+
 Если нужно пересоздать контейнер с сохранением данных:
 ```shell
 docker stop my-mysql
